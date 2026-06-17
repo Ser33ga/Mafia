@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
+>   <ui:VisualElement class="table-root">
+  <!-- Хедер -->
+  <ui:VisualElement class="header-row">
+    <ui:VisualElement name="fixed-header" class="fixed-header" />
+    <ui:ScrollView name="scroll-header" mode="Horizontal" class="scroll-header" />
+  </ui:VisualElement>
+
+  <!-- Тело -->
+  <ui:VisualElement class="table-body">
+    <ui:ScrollView name="fixed-scroll" mode="Vertical" class="fixed-columns" />
+    <ui:ScrollView name="h-scroll" mode="Horizontal" class="scrollable-columns">
+      <ui:ScrollView name="inner-v-scroll" mode="Vertical" />
+    </ui:ScrollView>
+  </ui:VisualElement>
+</ui:VisualElement>
+    
+</ui:UXML>

@@ -1,0 +1,10 @@
+.table-root { flex-direction: column; width: 100%; height: 100%; }
+.header-row { flex-direction: row; flex-shrink: 0; }
+.table-body  { flex-direction: row; flex-grow: 1; }
+
+.fixed-columns  { width: 200px; flex-shrink: 0; }
+.scrollable-columns { flex-grow: 1; }
+
+/* Спрятать скроллбар у scroll-header */
+.scroll-header > .unity-scroll-view__content-and-vertical-scroll-container 
+  > .unity-scroller--horizontal { display: none; }

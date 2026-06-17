@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="GameMenu" src="project://database/Assets/Game/UI/GameMenu.uxml?fileID=9197481963319205126&amp;guid=4fcb3d3ae6dbb0749856c03907271d12&amp;type=3#GameMenu"/>
+    <ui:Template name="GamePreparingMenu" src="project://database/Assets/Game/UI/GamePreparingMenu.uxml?fileID=9197481963319205126&amp;guid=9037eca5e6beac842aba8d098ca8b1d2&amp;type=3#GamePreparingMenu"/>
+    <ui:Template name="LanguageMenu" src="project://database/Assets/Game/UI/LanguageMenu.uxml?fileID=9197481963319205126&amp;guid=50697eab1a1a0354499bc46d94c1bd44&amp;type=3#LanguageMenu"/>
+    <ui:Template name="LeavingGameMenu" src="project://database/Assets/Game/UI/LeavingGameMenu.uxml?fileID=9197481963319205126&amp;guid=2f015d682d6045b4fac5ead3c9171cc6&amp;type=3#LeavingGameMenu"/>
+    <ui:Template name="MainMenu" src="project://database/Assets/Game/UI/MainMenu.uxml?fileID=9197481963319205126&amp;guid=d4ec9a225d0302e4e920f799af6a7354&amp;type=3#MainMenu"/>
+    <ui:Template name="SettingsMenu" src="project://database/Assets/Game/UI/SettingsMenu.uxml?fileID=9197481963319205126&amp;guid=249692df02eaa5f43a9abc3bcb432c75&amp;type=3#SettingsMenu"/>
+    <ui:Instance template="SettingsMenu" name="SettingsMenu" style="display: none;"/>
+    <ui:Instance template="MainMenu" name="MainMenu" style="display: none;"/>
+    <ui:Instance template="LeavingGameMenu" name="LeavingGameMenu" style="display: none;"/>
+    <ui:Instance template="LanguageMenu" name="LanguageMenu" style="display: none;"/>
+    <ui:Instance template="GamePreparingMenu" name="PreparingGameMenu" style="display: none;"/>
+    <ui:Instance template="GameMenu" name="GameMenu" style="display: none;"/>
+</ui:UXML>
